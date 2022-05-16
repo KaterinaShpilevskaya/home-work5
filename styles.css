@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+    padding-bottom: 50px;
+    background: 
+    linear-gradient(rgba(202, 185, 185, 0.45), rgba(0, 0, 0, .75)),
+    url(./assets/flower1.jpg) center/cover no-repeat fixed;
+}
+
+.header__title {
+    text-align: center;
+}
+
+.header__image {
+    max-width: 600px;
+    height: 250px;
+    background: url(./assets/flower1.jpg) center/cover no-repeat;
+    margin: 0 auto;
+    
+}
+
+.content__title {
+    text-align: center;
+}
+
+.content__article {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.content__article__image {
+    width: 320px;
+    height: 300px;
+    background: url(./assets/flower2.jpg) center/cover no-repeat;
+    margin-bottom: 10px;
+    
+}
+
+.content__article__description {
+    width: 370px;
+    height: 300px;
+    text-align: justify;
+    background-color: azure;
+    padding: 10px;
+}
+
+.content2__article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content2__article__description {
+    width: 160px;
+    height: 300px;
+    text-align: justify;
+    background-color: azure;
+    padding: 10px;
+}
+
+.content2__article__image {
+    width: 160px;
+    height: 300px;
+    background: url(./assets/flower3.jpg) center/cover no-repeat;
+    margin-bottom: 10px;
+}
+
+.content3__article__image {
+    width: 370px;
+    height: 300px;
+    background: url(./assets/flower4.jpg) center/cover no-repeat;
+    margin-bottom: 10px;
+}
+
+
+
+.content4__article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content4__article__description {
+    width: 160px;
+    height: 300px;
+    text-align: justify;
+    background-color: azure;
+    padding: 10px;
+}
+
+.content4__article__image {
+    width: 160px;
+    height: 300px;
+    background: url(./assets/flower5.jpg) center/cover no-repeat;
+    margin-bottom: 10px;
+}
+
+.content5__article__image {
+    width: 370px;
+    height: 300px;
+    background: url(./assets/flower6.jpg) center/cover no-repeat;
+    margin-bottom: 10px;
+}
