@@ -22,4 +22,5 @@ What done:
 2. BEM methodology was used
 3. used flexbox model
 4. worked on page adaptability
+5. used background with linear-gradient
  
