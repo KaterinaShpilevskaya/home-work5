@@ -131,6 +131,6 @@ p {
     opacity: .7;
 }
 
-.footer__btn, .footer__btn_pink {
+.footer__btn.footer__btn_pink {
     background-color: pink;
 }
