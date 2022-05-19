@@ -2,6 +2,8 @@
 
 About japanese flowers
 
+![сакура](https://planetofhotels.com/guide/sites/default/files/styles/node__blog_post__bp_banner/public/2020-05/Sakura-in-Japan.jpg)
+
 [link to Page](https://katerinashpilevskaya.github.io/home-work5/)
 
 ***
@@ -30,5 +32,5 @@ What done:
 7. used box-shadow and text-shadow properties
 8. worked with :hover and :focus
 
-![сакура](https://planetofhotels.com/guide/sites/default/files/styles/node__blog_post__bp_banner/public/2020-05/Sakura-in-Japan.jpg)
+
  
