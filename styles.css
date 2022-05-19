@@ -187,10 +187,12 @@ p {
 
 .form__input-submit:hover {
     cursor: pointer;
+    background-color: rgb(244, 221, 238);
 }
 
 .form__input-reset:hover {
     cursor: pointer;
+    background-color: rgb(222, 245, 222);
 }
 
 
