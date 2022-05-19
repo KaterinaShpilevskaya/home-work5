@@ -24,6 +24,7 @@ p {
 
 .header__title {
     text-align: center;
+    text-shadow: 2px 3px 1px rgb(85, 85, 85);
 }
 
 .header__image {
@@ -134,3 +135,62 @@ p {
 .footer__btn.footer__btn_pink {
     background-color: pink;
 }
+
+.form {
+    width: 250px;
+    padding: 15px;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    border: 2px solid whitesmoke;
+    box-shadow: 6px 2px 7px whitesmoke;
+}
+
+.form__label {
+    color: aliceblue;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.form__input-name,
+.form__input-tel,
+.form__input-adress
+{
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(245, 227, 243);
+}
+
+.form__input-name:focus,
+.form__input-tel:focus,
+.form__input-adress:focus{
+    color: green;
+}
+
+.form__input-submit {
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(241, 198, 229);
+}
+
+.form__input-reset {
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(189, 241, 188);
+}
+
+.form__input-submit:hover {
+    cursor: pointer;
+}
+
+.form__input-reset:hover {
+    cursor: pointer;
+}
+
+
