@@ -9,56 +9,91 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif:ital@1&family=Roboto&display=swap"
       rel="stylesheet"
-      />
-      <link rel="icon" href="./assets/favicon.png" type="image/x-icon">
+    />
+    <link rel="icon" href="./assets/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="styles.css" />
     <title>Japanese Flowers</title>
   </head>
 
   <body>
-
     <div class="container">
-      
       <header class="header">
         <h1 class="header__title">Japanese Flowers</h1>
         <div class="header__image"></div>
       </header>
 
-      <section class="content">
-          <h2 class="content__title">About Japanese Flowers</h2>
-          <div class="content__article">
+      <section class="about">
+        <h2 class="content__title">About Japanese Flowers</h2>
+        <div class="content__article">
           <div class="content__article__image"></div>
           <div class="content__article__description">
-              <p>Japan is a beautiful country that has a clear divide between the four seasons, meaning that whenever you visit, there is distinctly beautiful scenery to enjoy.
-                Nowadays many foreign flower species have also been introduced to Japan, but there are also many beautiful flowers that have continued to bloom here since ancient times. These Japanese flowers also have beautiful meanings. 
-                </p>
+            <p>
+              Japan is a beautiful country that has a clear divide between the
+              four seasons, meaning that whenever you visit, there is distinctly
+              beautiful scenery to enjoy. Nowadays many foreign flower species
+              have also been introduced to Japan, but there are also many
+              beautiful flowers that have continued to bloom here since ancient
+              times. These Japanese flowers also have beautiful meanings.
+            </p>
           </div>
         </div>
-        <div class="content2">
-            <div class="content2__article">
-                <div class="content2__article__image"></div>
-                <div class="content2__article__description">
-                  <h5>Kinmokusei (Orange Osmanthus) - Autumn.</h5>
-                    <p> This flower was introduced from China to Japan in the Edo period.
-                        In floral language it has the meaning of “truth” and “noble person”.</p>
-                </div>       
-                               <div class="content3__article__image"></div>
-            </div>
-            <div class="content4">
-              <div class="content4__article">
-                  <div class="content4__article__image"></div>
-                  <div class="content4__article__description">
-                    <h5>Tsubaki (Camellia).</h5>
-                      <p> Camellias are evergreen shrubs or small trees with glossy, dark green leaves. The flowers of the shrub are large (usually around 12 centimeters tall).</p>
-                  </div> 
-                  <div class="content5__article__image"></div>   
-              </div>
+
+        <div class="content2__article">
+          <div class="content2__article__image"></div>
+          <div class="content2__article__description">
+            <h5>Kinmokusei (Orange Osmanthus) - Autumn.</h5>
+            <p>
+              This flower was introduced from China to Japan in the Edo period.
+              In floral language it has the meaning of “truth” and “noble
+              person”.
+            </p>
+          </div>
+          <div class="content3__article__image"></div>
+        </div>
+
+        <div class="content4__article">
+          <div class="content4__article__image"></div>
+          <div class="content4__article__description">
+            <h5>Tsubaki (Camellia).</h5>
+            <p>
+              Camellias are evergreen shrubs or small trees with glossy, dark
+              green leaves. The flowers of the shrub are large (usually around
+              12 centimeters tall).
+            </p>
+          </div>
+          <div class="content5__article__image"></div>
+        </div>
       </section>
 
       <footer class="footer">
-        <button class="footer__btn footer__btn_pink">Go to the store</button>
+        <form
+          class="form"
+          action="mailto:katyashpilevskaya@gmail.com"
+          method="post"
+          target="_blank"
+        >
+          <label for="input-name" class="form__label">To order:</label>
+          <input
+            class="form__input-name"
+            type="text"
+            name="my_name"
+            placeholder="enter your name"
+            id="input-name"
+          />
+          <input
+            class="form__input-tel"
+            type="tel"
+            placeholder="enter your phone number"
+          />
+          <input
+            class="form__input-adress"
+            type="text"
+            placeholder="enter your adress"
+          />
+          <input class="form__input-submit" type="submit" value="submit" />
+          <input class="form__input-reset" type="reset" value="reset" />
+        </form>
       </footer>
-
     </div>
   </body>
 </html>
