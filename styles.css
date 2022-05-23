@@ -45,6 +45,7 @@ p {
     max-width: 800px;
     margin: 0 auto;
     flex-wrap: wrap;
+    gap: 5px;
 }
 
 .content__article__image {
@@ -59,59 +60,63 @@ p {
     width: 370px;
     height: 300px;
     text-align: justify;
-    background-color: azure;
+    background-color: var(--color-azure);
     padding: 10px;
+    margin-bottom: 10px;
 }
 
-.content2__article {
+.description {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     max-width: 800px;
     margin: 0 auto;
+    gap: 10px;
 }
 
-.content2__article__description {
+.article__content {
+    width: 320px;
+    height: 300px; 
+    display: flex;
+}
+
+.article__description {
     width: 160px;
     height: 300px;
     text-align: justify;
-    background-color: azure;
+    background-color: var(--color-azure);
     padding: 10px;
 }
 
-.content2__article__image {
+.article__image {
     width: 160px;
     height: 300px;
     background: url(./assets/flower3.jpg) center/cover no-repeat;
     margin-bottom: 10px;
 }
 
-.content3__article__image {
+.article__image_2 {
     width: 370px;
     height: 300px;
     background: url(./assets/flower4.jpg) center/cover no-repeat;
     margin-bottom: 10px;
 }
 
-
-
-.content4__article {
+.article__content_2 {
+    width: 320px;
+    height: 300px; 
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 800px;
-    margin: 0 auto;
 }
 
-.content4__article__description {
+.article__description_2 {
     width: 160px;
     height: 300px;
     text-align: justify;
-    background-color: azure;
+    background-color: var(--color-azure);
     padding: 10px;
 }
 
-.content4__article__image {
+.article__image_3 {
     width: 160px;
     height: 300px;
     background: url(./assets/flower5.jpg) center/cover no-repeat;
@@ -133,7 +138,7 @@ p {
 }
 
 .footer__btn.footer__btn_pink {
-    background-color: pink;
+    background-color: var(--color-pink);
 }
 
 .form {
@@ -168,31 +173,31 @@ p {
 .form__input-name:focus,
 .form__input-tel:focus,
 .form__input-adress:focus{
-    color: green;
+    color: var(--color-green);
 }
 
 .form__input-submit {
     border-radius: 5px;
     padding: 5px;
     font-family: 'Noto Sans', sans-serif;
-    background-color: rgb(241, 198, 229);
+    background-color: var(--color-lightpink);
 }
 
 .form__input-reset {
     border-radius: 5px;
     padding: 5px;
     font-family: 'Noto Sans', sans-serif;
-    background-color: rgb(189, 241, 188);
+    background-color: var(--color-lightgreen);
 }
 
 .form__input-submit:hover {
     cursor: pointer;
-    background-color: rgb(244, 221, 238);
+    background-color: var(--color-lightpink);
 }
 
 .form__input-reset:hover {
     cursor: pointer;
-    background-color: rgb(222, 245, 222);
+    background-color: var(--color-lightgreen);
 }
 
 
