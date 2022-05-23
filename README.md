@@ -1,4 +1,4 @@
-# home-work5  🌼
+# home-work7  🌼
 
 About japanese flowers
 
@@ -31,6 +31,7 @@ What done:
 6. made an order form
 7. used box-shadow and text-shadow properties
 8. worked with :hover and :focus
+9. added variables to the file root
 
 
  
