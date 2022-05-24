@@ -4,7 +4,7 @@ About japanese flowers
 
 ![сакура](https://planetofhotels.com/guide/sites/default/files/styles/node__blog_post__bp_banner/public/2020-05/Sakura-in-Japan.jpg)
 
-[link to Page](https://katerinashpilevskaya.github.io/home-work5/)
+[link to Page](https://katerinashpilevskaya.github.io/home-work7/)
 
 ***
 The project was created using html and css. I am using tags:
